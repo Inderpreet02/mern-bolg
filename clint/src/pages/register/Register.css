@@ -1,0 +1,72 @@
+.register{
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(rgba(250,250,250,0.5), rgba(250,250,250,0.5)),url("https://images.unsplash.com/photo-1487611459768-bd414656ea10?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1500&q=80");
+    background-size: cover;
+    height: calc(100vh);
+}
+
+.register__container{
+    margin-top: 10%;
+    padding: 50px;
+    height: fit-content;
+}
+
+.register__heading{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.register__form{
+    display: flex;
+    flex-direction: column;
+}
+
+.register__formInput{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 25px;
+}
+
+.register__email, .register__password,.register__username{
+    font-size: 20px;
+}
+
+.register__email1, .register__password1,.register__username1{
+    padding: 10px 20px;
+    margin-top: 10px;
+    border: 1px solid rgba(153, 153, 153, 0.527);
+}
+
+
+.form__loginBtn{
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    background-color: teal;
+    color: #fff;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.form__RegisterBtn{
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    background-color: lightcoral;
+    color: #fff;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+    position: absolute;
+    top: 90px;
+    right: 50px;
+    padding: 10px 20px;
+}
+
+.form__loginBtn :disabled{
+    cursor: not-allowed;
+    background-color: coral;
+}

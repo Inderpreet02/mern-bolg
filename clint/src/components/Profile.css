@@ -1,0 +1,80 @@
+.profile{
+    flex: 8;
+    padding-right: 20px;
+}
+
+.profile__top{
+    display: flex;
+    justify-content: space-between;
+    color: tomato;
+    align-items: center;
+}
+
+.profile__heading{
+    font-size: 30px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.profile__form{
+    margin-top: 50px;
+}
+
+.profile__delete{
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.form__picInput{
+    display: flex;
+    align-items: center;
+}
+
+.form__picInput > img{
+    height: 100px;
+    border-radius: 5px;
+}
+
+.profile__icon{
+    justify-self: center;
+    padding-left: 10px;
+    font-size: 35px;
+    color: tomato;
+}
+
+.form__input{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+}
+
+.profile__username1,.profile__email1,.profile__password1{
+    font-size: 28px;
+}
+
+#profile__usename,#profile__email,#profile__password{
+    border: none;
+    border-bottom: 1px solid;
+    padding: 10px 10px;
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+#profile__usename:focus,#profile__email:focus,#profile__password:focus{
+    outline: none;
+}
+
+.form__btn{
+    margin-top: 30px;
+    display: flex;
+}
+
+.form__submit{
+    border: none;
+    font-size: 18px;
+    background-color: teal;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: #fff;
+}

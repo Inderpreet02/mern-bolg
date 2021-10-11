@@ -1,0 +1,98 @@
+.single{
+    flex: 8;
+}
+
+.single__container{
+    margin: 20px 20px;
+    width: 90%;
+}
+
+.single__container > img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.single__info{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.single__heading{
+    font-size: 28px;
+    margin-top: 15px;
+}
+
+.single__icons{
+    align-self: flex-end;
+    justify-self: end;
+    margin-top: -2%;
+    font-size: 20px;
+}
+
+.single__icon1{
+    color: teal;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.single__icon2{
+    color: tomato;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.single__author{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #999;
+    
+}
+
+.author{
+    color: goldenrod;
+    font-size: 20px;
+}
+
+.single__text{
+    font-size: 18px;
+    margin-top: 20px;
+    line-height: 28px;
+    text-align: justify;
+    color: #444;
+}
+.single__text::first-letter{
+    padding-left: 15px;
+    font-size: 40px;
+    font-style: italic;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.updateInput{
+    padding: 10px;
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.updateText{
+    width: 97%;
+    padding: 10px;
+    font-size: 24px;
+}
+
+.single__postBtn{
+    color: #fff;
+    background-color: teal;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    margin-top: 20px;
+}

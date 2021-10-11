@@ -1,0 +1,51 @@
+.post__container{
+    max-width: 430px;
+    margin: 10px;
+    width: 100%;
+    margin-top: 25px;
+    margin-right: 25px;
+
+}
+
+.post__container > img{
+    width: 100%;
+    object-fit: contain;
+    border-radius: 5px;
+}
+
+.post__info{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.post__genre{
+    font-size: 12px;
+    color: rgb(230, 136, 59);
+    margin: 5px 10px;
+    line-height: 20px;
+    cursor: pointer;
+}
+
+.post__heading{
+    margin-top: 15px;
+}
+
+.post__time{
+    color: #999;
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.post__description{
+    font-size: 16px;
+    color: #444;
+    line-height: 24px;
+    margin-top: 15px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    text-align: justify;
+}

@@ -1,0 +1,8 @@
+.posts{
+    flex: 8;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: top;
+    margin-right: 50px;
+}

@@ -1,0 +1,72 @@
+.login{
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(rgba(250,250,250,0.5), rgba(250,250,250,0.5)),url("https://images.unsplash.com/photo-1546177461-79dfec0b0928?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1267&q=80");
+    background-size: cover;
+    height: calc(100vh);
+    position: relative;
+}
+
+.login__container{
+    margin-top: 10%;
+    padding: 50px;
+    height: fit-content;
+}
+
+.login__header{
+    text-align: center;
+    font-size: 40px;
+}
+
+.login__form{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.login__formInput{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 25px;
+}
+
+.login__email, .login__password{
+    font-size: 20px;
+}
+
+.login__email1, .login__password1{
+    padding: 10px 20px;
+    margin-top: 10px;
+    border: 1px solid rgba(153, 153, 153, 0.527);
+}
+
+
+.form__loginBtn2{
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    background-color: lightcoral;
+    color: #fff;
+    font-size: 14px;
+    border-radius: 5px;
+    position: absolute;
+    top: 90px;
+    right: 50px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.form__registerBtn2{
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    border: none;
+    background-color: teal;
+    color: #fff;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.test__btn:disabled{
+    cursor: not-allowed;
+    background-color: rgb(2, 58, 58);
+}

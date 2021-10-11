@@ -1,0 +1,62 @@
+.write{
+    padding: 50px;
+    max-width: 1100px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.write__formContainer{
+    display: flex;
+    align-items: center;
+}
+
+.write__icon{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #444;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.write__input,.write__text{
+    font-size: 30px;
+    border: none;
+    padding: 15px;
+    margin-top: 10px;
+    width: 70vw;
+}
+
+.write__text{
+    width: 100%;
+}
+
+.write__img{
+    display: flex;
+    justify-content: center;
+}
+
+.write__img > img{
+    height: 400px;
+    object-fit: cover;
+    width: 100%;
+}
+
+.write__form{
+    position: relative;
+}
+
+.write__btn{
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: none;
+    background-color: teal;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 19px;
+    cursor: pointer;
+}

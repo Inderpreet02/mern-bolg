@@ -1,0 +1,7 @@
+.settings{
+    max-width: 1400px;
+    margin: auto;
+    display: flex;
+    margin-top: 100px;
+    padding: 20px;
+}
